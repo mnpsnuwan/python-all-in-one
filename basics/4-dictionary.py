@@ -1,3 +1,5 @@
+# Dictionary = A changeable, unordered collection of unique key:value pairs
+# Fast because they use hashing, allow us to access a value quickly
 # In python, the dictionary is similar to hash or maps in other languages.
 # It consists of key-value pairs. The value can be accessed by a unique key in the dictionary.
 
@@ -124,4 +126,25 @@ print(dict2)
 
 # values() method
 print(dict2.values())
+
+# ---
+capitals = {'USA': 'Washington DC',
+            'India': 'New Delhi',
+            'China': 'Beijing',
+            'Russia': 'Moscow'}
+
+capitals.update({'Germany': 'Berlin'})
+capitals.update({'USA': 'New York'})
+
+print(capitals)
+print(capitals['USA'])
+print(capitals.get('Italy'))
+print(capitals.values())
+print(capitals.keys())
+print(capitals.items())
+print(capitals.pop('China'))
+capitals.clear()
+
+for key, value in capitals.items():
+    print(key, value)
 
