@@ -1,3 +1,4 @@
+# Function = A block of code which is executed only when it is called.
 # Python program to illustrate
 # functions
 def hello():
@@ -168,4 +169,15 @@ def my_fun3(x):
 x = 10
 my_fun3(x)
 print(x)
+
+
+# ---
+def hello(name, age):
+    print("Hello, " + name)
+    print("Perhaps you are " + str(age) + " years old")
+    print("Have a nice day!")
+
+
+first_name = "Nuwan"
+hello(first_name, 25)
 
