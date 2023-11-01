@@ -55,7 +55,7 @@ print(f"The addition of {num1} and {num2} results {ans}.")
 # *args in Python (Non-Keyword Arguments)
 # **kwargs in Python (Keyword Arguments)
 # Python program to illustrate
-# *args variable length non-keywords argument
+# *args variable length non-keywords argument passing as tuple
 def my_argv_fun(*argv):
     for arg in argv:
         print(arg)
@@ -64,9 +64,24 @@ def my_argv_fun(*argv):
 my_argv_fun('Hello', 'Welcome', 'to', 'IMatrixLabs')
 
 
+# ---
+def add(*stuff):
+    total = 0
+    stuff = list(stuff)
+    stuff[0] = 0
+    for i in stuff:
+        total += i
+    return total
+
+
+print(add(1, 2, 3, 4, 5, 6))
+
+
 # Python program to illustrate
-# *kwargs for variable number of keyword arguments
+# *kwargs = Parameter that will pack all arguments into a dictionary
+# For variable number of keyword arguments
 def my_kwargs_fun(**kwargs):
+    print("Hello " + kwargs["first"] + " " + kwargs["mid"])
     for key, value in kwargs.items():
         print("%s == %s" % (key, value))
 
@@ -180,4 +195,25 @@ def hello(name, age):
 
 first_name = "Nuwan"
 hello(first_name, 25)
+
+# ------------------------------------
+# Nested function call = Function calls inside other function call
+# Innermost function calls are resolved first
+# Returned value is used as argument for the next outer function
+
+# num = input("Enter a whole positive number: ")
+# num = float(num)
+# num = abs(num)
+# num = round(num)
+# print(num)
+
+# Above list in one line
+print(round(abs(float(input("Enter a whole positive number: ")))))
+
+# ===============================
+# Python rule >>>
+# L => Local
+# E => Enclosing
+# G => Global
+# B => Built-In
 
