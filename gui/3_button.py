@@ -15,8 +15,8 @@ title = "IMATRIXLABS (PVT) LTD"
 window = Tk()
 window.title(title + " GUI")
 
-icon = PhotoImage(file='../data/crest.png')
-photo = PhotoImage(file='../data/icon.png')
+icon = PhotoImage(file='../data/images/crest.png')
+photo = PhotoImage(file='../data/images/icon.png')
 window.iconphoto(True, icon)
 
 # button

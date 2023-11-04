@@ -8,7 +8,7 @@ window = Tk()  # initiate an instance of a window
 window.geometry("500x500")
 window.title("IMATRIXLABS (PVT) LTD GUI")
 #
-icon = PhotoImage(file='../data/crest.png')
+icon = PhotoImage(file='../data/images/crest.png')
 window.iconphoto(True, icon)
 # window.config(background="black")
 window.config(background="#22211d")

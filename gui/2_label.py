@@ -6,8 +6,8 @@ title = "IMATRIXLABS (PVT) LTD"
 window = Tk()
 window.title(title + " GUI")
 
-icon = PhotoImage(file='../data/crest.png')
-photo = PhotoImage(file='../data/FLogo.png')
+icon = PhotoImage(file='../data/images/crest.png')
+photo = PhotoImage(file='../data/images/FLogo.png')
 window.iconphoto(True, icon)
 
 # Label
