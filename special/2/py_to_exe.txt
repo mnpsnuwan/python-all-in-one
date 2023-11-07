@@ -1,0 +1,14 @@
+(Windows Defender may prevent you from running)
+(Make sure pip and pyinstaller are installed/updated)
+
+cd to directory that contains your .py file
+> pip install pyinstaller
+
+pyinstaller ...
+                -F              (All in 1 file)
+                -w              (All in 1 file)
+                -i icon.ico     (All in 1 file)
+                clock.py        (All in 1 file)
+.exe is located in the dist folder
+
+>>> pyinstaller -F -w -i icon.ico clock.py
