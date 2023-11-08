@@ -83,4 +83,7 @@
 1. Count down
 2. Pseudo random
 3. Rock paper scissor
-4. Quiz
+4. Quiz game
+5. Basic calculator
+6. Basic text editor
+7. Tic Tac Toe game
