@@ -87,3 +87,4 @@
 5. Basic calculator
 6. Basic text editor
 7. Tic Tac Toe game
+8. Simple Snake game
