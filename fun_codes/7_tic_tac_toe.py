@@ -95,9 +95,6 @@ def new_game():
 
 
 title = "IMATRIXLABS (PVT) LTD"
-file = None
-window_width = 500
-window_height = 500
 
 window = Tk()
 window.title("Tic Tac Toe - " + title)
