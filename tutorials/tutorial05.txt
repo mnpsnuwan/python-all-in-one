@@ -1,0 +1,18 @@
+Tutorial 5
+Implement solutions for the following scenarios using Python.
+1. Design a function to decide if a given number is Even or Odd.
+    e.g.:   >(OddEven 4)
+            > 4 is Even
+
+            >(OddEven 7)
+            > 7 is Odd
+
+2. Design a program to take 3 strings (e.g.: sentences or words), and output which string
+was the longest and the number of characters in it.
+    e.g.:   > Enter string 1: Hello World
+            > Enter string 2: I’m learning Racket
+            > Enter string 3: I’m also learning Python.
+            > String 3 is the longest. It has 24 characters.
+Improve the program by finding out the method where you can ignore the 'space'
+characters. e.g.: 'Hello World' has 11 characters, but if you remove the space only 10
+characters.
