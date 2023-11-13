@@ -1,0 +1,12 @@
+Tutorial 3
+Implement solutions for the following scenarios using Python.
+1) A Bank pays 4% for deposits of up to Rs. 1000 (inclusive), 4.5% for deposits up to Rs.
+5000 (inclusive), and 5% for deposits of more than Rs. 5000. Design a function that
+returns your interest for a given amount of deposit.
+2) The roots of the quadratic function ax2+bx+c = 0 is given by,
+The existence of roots is determined by,
+    b^2>4ac, two roots
+    b^2=4ac, one root
+    b^2<4ac, no roots
+For any given a,b,c values determine the number of roots for the corresponding
+function and also calculate the roots
