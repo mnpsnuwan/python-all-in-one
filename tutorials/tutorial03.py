@@ -1,7 +1,7 @@
-# 01
 import math
 
 
+# 01
 def interests(amount):
     if 0 < amount <= 1000:
         return amount * 4/100

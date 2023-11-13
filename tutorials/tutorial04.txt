@@ -1,0 +1,21 @@
+Tutorial 4
+Implement solutions for the following scenarios using Python.
+1) A Student receives 2 marks at the end of each course. One is the exam mark and the
+other is the special skills mark. If the exam mark is greater than 50 the student passes
+the course and if he has more than 50 special skills points he receives a merit pass.
+Design a function that takes the two marks and decides if it’s a PASS, FAIL or MERIT
+PASS result.
+    e.g.:   > (merit 70 60)
+            > MERIT PASS
+
+2) Design a function that tests if
+    a/. Two given numbers are both negative, otherwise say positive
+    b/. At least one is negative
+    e.g:    > (check-numbers 3 1)
+            > Both are positive
+
+            > (check-numbers -1 -4)
+            > Both are negative
+
+            > (check-numbers 8 -2)
+            > One number is negative
