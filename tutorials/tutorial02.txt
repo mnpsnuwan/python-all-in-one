@@ -1,0 +1,12 @@
+Tutorial 2
+Implement solutions for the following scenarios using Python.
+1) Design a program to calculate the length of a given string and return the phrase “The
+total number of characters in the string is..[answer]”.
+2) Design a program to calculate the surface area of the following disk/ring with the outer
+radius and the inner radius given in parameters.
+3) Calculate the value of b^2-4ac for the quadratic formula ax^2+bx+c=0, when provided a, b,c variable values as parameters.
+Design the program to give command line inputs as well.
+4) Design a program which takes Celsius temperature values as user input in a proper
+sentence e.g. “Please input the Celsius temperature value>” and returns the Fahrenheit
+value with a proper sentence. e.g. “The Fahrenheit value for the given temperature
+is..[answer]”
