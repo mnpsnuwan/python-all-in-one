@@ -1,0 +1,10 @@
+Tutorial 9
+Implement solutions for the following scenarios using Python.
+1. Write a program that checks for Palindromes. A Palindrome is a word that when reversed
+produces the same word.
+    e.g.:
+        > Enter a string: Kayak
+        > “Kayak” is a Palindrome
+
+        > Enter a string: Hello
+        > “Hello” is not a Palindrome
