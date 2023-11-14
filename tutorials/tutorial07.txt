@@ -1,0 +1,16 @@
+Tutorial 7
+Implement solutions for the following scenarios using Python.
+
+1. Design a function to input a range of numbers and add the integers within the range.
+    e.g.:   > (sum 3 5)
+            > 12
+
+2. Design a function to input a range of numbers and add the odd numbers within the range.
+    e.g.:   > (odd-sum 1 11)
+            > 36
+
+3. Write a program that adds up the cubes of integers from 1 to N, where N is entered by the
+user. For example when you enter 5, the program should output the value of
+1^3+2^3+3^3+4^3+5^3 in the following format:
+    i.e.:   > Enter a number: 5
+            > The Answer is 225
