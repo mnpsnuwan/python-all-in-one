@@ -1,0 +1,7 @@
+Tutorial 8
+Implement solutions for the following scenarios using Python.
+
+1. Print the multiples of 5 which are not divisible by 10, from 1 to 100 in descending order
+using a for loop.
+2. Rewrite the factorial program using loops, instead of recursion.
+3. Rewrite the Fibonacci program using loops likewise.
