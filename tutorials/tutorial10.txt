@@ -1,0 +1,13 @@
+Tutorial 10
+Implement solutions for the following scenarios using Python.
+
+1. Define a list using cons operator that contains the following items.
+Java Python C++ PHP programming 365 @ UCSC
+2. Retrieve the first item from the list defined above.
+3. Retrieve the rest of the items from the same list
+4. Calculate the length of the list.
+5. Find the 4th element in the list.
+6. Append the items teaching and material to the list.
+7. Using a loop, define a list that contains the numbers from 1 to 10. Write a function to find
+the sum of the values in the list.
+8. Filter the even values from the list you created in 7. (Define an even function)
