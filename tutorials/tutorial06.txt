@@ -1,0 +1,28 @@
+Tutorial 6
+Implement solutions for the following scenarios using Python.
+
+1. Design a function to calculate factorial value for a given parameter using recursion.
+    e.g.:   >(factorial 4)
+            > 24
+
+2. Design a function to calculate the nth Fibonacci number using recursion.
+    1 1 2 3 5 8
+    e.g.:   >(fibonacci 4)
+            > 3
+
+3. Design a function to calculate GCD (Greatest Common Divisor) value for a given
+parameter values using recursion.
+    e.g.:   >(GCD 30 18)
+            > 6
+
+4. Write a function to obtain the exponent of values using recursion.
+    e.g.    When you run the function as (power 2 3) it should compute 23 in terms of,
+            base^exponent = base * base^exponent-1.
+Use the condition - when the exponent is 1, base1 = base, to stop the recursion.
+
+5. Write a recursive method that takes as parameters an initial investment amount, an annual
+interest rate, and a number of years. The method should return the value of the
+investment after the given number of years, assuming that the interest is compounded
+annually. (For example, if the initial investment is 1000 and the interest rate is 10
+percent, then after one year the investment will be worth 1100, after two years 1210, after
+three years 1331, etc.)
